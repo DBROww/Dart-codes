@@ -44,7 +44,7 @@ class _ContadorCurtidaState extends State<ContadorCurtida> {
         height: double.infinity,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/fundo.jpg"),
+            image: AssetImage("assets/images/fundo.jpg"),
             fit: BoxFit.cover,
           ),
         ),
