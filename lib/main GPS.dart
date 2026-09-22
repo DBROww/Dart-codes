@@ -40,7 +40,7 @@ class _LocalizacaoPageState extends State<LocalizacaoPage> {
     LocationPermission permissao = await Geolocator.checkPermission();
 
     if (permissao == LocationPermission.denied) {
-      permissao == await Geolocator.requestPermission();
+      permissao = await Geolocator.requestPermission();
     }
 
     if (permissao == LocationPermission.denied ||
